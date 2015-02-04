@@ -16,6 +16,8 @@
 		B27DD7781A7FECEB00B6090B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B27DD7761A7FECEB00B6090B /* LaunchScreen.xib */; };
 		B27DD7841A7FECEB00B6090B /* BuskersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B27DD7831A7FECEB00B6090B /* BuskersTests.m */; };
 		B2CC26721A82DC2A0047ABE9 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CC26711A82DC2A0047ABE9 /* ThirdViewController.m */; };
+		B2CC26741A82E3AE0047ABE9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CC26731A82E3AE0047ABE9 /* CoreLocation.framework */; };
+		B2CC26761A82E7190047ABE9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CC26751A82E7190047ABE9 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		B27DD7831A7FECEB00B6090B /* BuskersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuskersTests.m; sourceTree = "<group>"; };
 		B2CC26701A82DC0A0047ABE9 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		B2CC26711A82DC2A0047ABE9 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		B2CC26731A82E3AE0047ABE9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B2CC26751A82E7190047ABE9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2CC26761A82E7190047ABE9 /* MapKit.framework in Frameworks */,
+				B2CC26741A82E3AE0047ABE9 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +75,8 @@
 		B27DD7581A7FECEB00B6090B = {
 			isa = PBXGroup;
 			children = (
+				B2CC26751A82E7190047ABE9 /* MapKit.framework */,
+				B2CC26731A82E3AE0047ABE9 /* CoreLocation.framework */,
 				B27DD7631A7FECEB00B6090B /* Buskers */,
 				B27DD7801A7FECEB00B6090B /* BuskersTests */,
 				B27DD7621A7FECEB00B6090B /* Products */,
