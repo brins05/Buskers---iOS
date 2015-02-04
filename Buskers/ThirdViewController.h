@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  ThirdViewController.h
 //  Buskers
 //
 //  Created by Moncef Biaz on 02/02/2015.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <CoreLocation/CoreLocation.h>
 
-@interface SecondViewController : UIViewController
+@interface ThirdViewController : UIViewController
 
 
 @end

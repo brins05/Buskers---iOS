@@ -15,6 +15,7 @@
 		B27DD7751A7FECEB00B6090B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B27DD7741A7FECEB00B6090B /* Images.xcassets */; };
 		B27DD7781A7FECEB00B6090B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B27DD7761A7FECEB00B6090B /* LaunchScreen.xib */; };
 		B27DD7841A7FECEB00B6090B /* BuskersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B27DD7831A7FECEB00B6090B /* BuskersTests.m */; };
+		B2CC26721A82DC2A0047ABE9 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CC26711A82DC2A0047ABE9 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		B27DD77D1A7FECEB00B6090B /* BuskersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuskersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27DD7821A7FECEB00B6090B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B27DD7831A7FECEB00B6090B /* BuskersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuskersTests.m; sourceTree = "<group>"; };
+		B2CC26701A82DC0A0047ABE9 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		B2CC26711A82DC2A0047ABE9 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +90,9 @@
 				B27DD7681A7FECEB00B6090B /* AppDelegate.h */,
 				B27DD7691A7FECEB00B6090B /* AppDelegate.m */,
 				B27DD76B1A7FECEB00B6090B /* FirstViewController.h */,
+				B2CC26701A82DC0A0047ABE9 /* ThirdViewController.h */,
 				B27DD76C1A7FECEB00B6090B /* FirstViewController.m */,
+				B2CC26711A82DC2A0047ABE9 /* ThirdViewController.m */,
 				B27DD76E1A7FECEB00B6090B /* SecondViewController.h */,
 				B27DD76F1A7FECEB00B6090B /* SecondViewController.m */,
 				B27DD7711A7FECEB00B6090B /* Main.storyboard */,
@@ -225,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B27DD7701A7FECEB00B6090B /* SecondViewController.m in Sources */,
+				B2CC26721A82DC2A0047ABE9 /* ThirdViewController.m in Sources */,
 				B27DD76A1A7FECEB00B6090B /* AppDelegate.m in Sources */,
 				B27DD76D1A7FECEB00B6090B /* FirstViewController.m in Sources */,
 				B27DD7671A7FECEB00B6090B /* main.m in Sources */,
@@ -418,6 +424,7 @@
 				B27DD7891A7FECEB00B6090B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B27DD78A1A7FECEB00B6090B /* Build configuration list for PBXNativeTarget "BuskersTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				B27DD78C1A7FECEB00B6090B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
